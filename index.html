@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
     <link rel="stylesheet" href="index.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/png/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/png/favicon-32x32.png">
@@ -19,107 +18,86 @@
 
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#About Me">About</a>
+    <a href="#about">About</a>
     <a href="#Experience">Experience</a>
     <a href="#Projects">Projects</a>
     <a href="#Education">Education</a>
-    <a href="#Contact">Contact</a>
-    <a target="_blank" href="resume.pdf"> Resume</a>
+    <a target="_blank" href="resume.pdf">Resume</a>
 </div>
 
 
 <span style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776;</span>
-<script>
-    function myFunction(x) {
-        x.classList.toggle("change");
-    }
-
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
-</script>
-
+<script src="./index.js"></script>
 
 <h2 align="center"> <img src="svg/nameInCursive.svg" width="500" alt=""> </h2>
 
-
-<div class="first" id="About Me">
-    <h1 align="center"> <br><i><u>About Me</u></i> <br> </h1>
+<div class="grey" id="about">
+    <div class="hero-section">
+      <div class="hero-main">
+        <h1 class="greeting-text">Hello There! 👋, I'm Christopher Gawdzik</h1>
+        <p class="greeting-text-p">A passionate Software Engineer who loves to create elegant solutions to complex problems.</p>
+        <p class="greeting-text-p">I am currently in my third year studying Honours Computer Science at Carleton University!</p>
+        <br>
+      </div>
+    </div>
+    <div>
+        <a target="_blank" href="https://github.com/cgawdzik"> <img src="./svg/github.svg" width="100px" height="80px" alt=""></a>
+        <a target="_blank" href="https://www.linkedin.com/in/cgawdzik/"> <img src="./png/linkedin.png" width="80px" height="80px" alt=""></a> 
+    </div>
     <br>
-    <p align="center">I am currently a second-year student attending Carleton University studying Computer Science while completing my Honours. </p>
     <br>
-    <br>
-    <p align="center">I love to work on enganging problemsets - feel free to take a look at my <a href="https://github.com/cgawdzik" target="_blank">github</a> to see more!</p>
+    <a class="hero-btn" target="_blank" href="resume.pdf">Resume</a>
+    
 </div>
 
-<div>
-    <h3></h3>
-</div>
-<div class="first">
-     <h1 align="center"><i><u>Experience</u></i></h1>
-    <h2 align="center">Teaching Assistant @ <a href="https://carleton.ca/" target="_blank">Carleton University</a><img src="svg/carleton.svg" width="50px" height="80px" alt=""> </h2>
+<br>
+<div class="grey" id="Experience">
+    <h1 align="center"><i><u>Experience</u></i></h1>
+    <h2 align="center">Computer Science Teaching Assistant @ <a href="https://carleton.ca/" target="_blank">Carleton University</a><img src="svg/carleton.svg" width="50px" height="80px" alt=""> </h2>
     <h3 align="center">Jan 2022 - May 2022</h3>
-    <br>
-    <p align="center">Assisted for a second year Computer Science course COMP 2401(Introduction To Systems Programming.  Topics include fundamental OS concepts, memory management, pointers.  Technologies include Unix based operating systems and programming in C on the command line.  Tasks included holding tutorials, office hours and marking
-    </p>
+
+    <div class="hero-section">
+        <div class="hero-exp">
+            <p class="greeting-text-p">As a Computer Science Teaching Assistant for COMP 2401 (Introduction to Systems Programming), Responsibilities included conducting weekly office hours with a vast knowledge of C to assist over 200 students with assignments, debugging and developing test cases and deepening their understanding of course material through exercises</p>
+                <br>
+            <ul>
+                <li style="font-size:20px">Collaborating with the course staff to assess the classes progress through marking assignments, tests and exams and providing feedback to all 200+ students</li>
+                <br>
+                <li style="font-size:20px">Doing pair programming exercises via tutorials and office hours to increase students understanding of complex topics such as threading, pointers, semaphores etc</li>
+                <br>
+                <li style="font-size:20px">Communicating with students during tutorial sessions to answer student questions and to ensure all questions were answered properly and efficiently</li>
+            </ul>
+        </div>
+    </div>
 </div>
 
-
-<div>
-<h3></h3>
-</div>
-
-<div>
-    <h3></h3>
-</div>
-
-<div class="first" id="Projects">
+<br>
+<div class="grey">
     <h1 align="center"><i><u>Projects</u></i></h1>
-    <div>
-        <h2 align="center">Wave Portal  <img src="svg/REACT.svg" width="100px" height="80px" alt=""></h2>
-        <p align="center">A one day project built with Solidity, JavaScript, HTML, CSS and an Ethereum Smart Contract. Allows people to hookup their Metamask Rinkeby test network wallet and send waves using the contract.</p>
+    <div class="hero-section">
+        <div class="hero-exp">
+            <h2 align="left"><a href="https://github.com/ChristopherGawdzik/Cleint-Server-Pokemon" target="_blank">WavePortal</a> <img src="svg/REACT.svg" width="100px" height="80px" alt=""></h2>
+            <p class="greeting-text-p">A one day project built with Solidity, JavaScript, HTML, CSS and an Ethereum Smart Contract. Allows people to hookup their Metamask Rinkeby test network wallet and send waves/hello signs using the contract</p>
+        
+            <br>
+            <br>
 
-        <p style="text-align:center;"><a href="https://waveportal-baseline-student-1.christophergawd.repl.co/" target="_blank">Check Out The Wave Portal!</a></p>
+            <h2 align="left"><a href="https://github.com/ChristopherGawdzik/Cleint-Server-Pokemon" target="_blank">Client-Server Pokedex</a><img src="svg/Pokeball.svg" width="120px" height="140px"></h2>
+            <p class="greeting-text-p">Pokemon Query Program that would take in a CSV file with hundreds of Pokemon and their descriptions and would sort the pokemon based on the user inputted Pokemon type. For instance user would input "Fire" a seperate csv file named "Fire.csv" would be created and all Pokemon of that type and their descriptions would be placed in "Fire.csv" all while communicating between Client-Server code and making use of Linked-Lists, Multi-Threading and Sockets to deliver a fast response to user. Created using the C programming language</p>
+        
+            <br>
+            <br>
+
+            <h2 align="left">Cryptocurrency Converter <img src="svg/eth.svg" width="120px" height="60px" alt=""></h2>
+            <p class="greeting-text-p">Implemented a cryptocurrency converter that would take in a amount of dollars and convert to a cryptocurrency of user's choice. Made using Java, an API and http requests to have live/accurate results</p>
+        </div>
     </div>
-
-
-
-    <div>
-        <br>
-        <br>
-        <h2 align="center">Client-Server Pokemon Query Program<img src="svg/Pokeball.svg" width="120px" height="140px"></h2>
-        <br>
-        <br>
-        <p style="text-align:center;">Pokemon Query Program that would take in a CSV file with hundreds of Pokemon and their descriptions and would sort the pokemon based on the user inputted Pokemon type. For instance user would input "Fire" a seperate csv file named "Fire.csv" would be created and all Pokemon of that type and their descriptions would be placed in "Fire.csv" all while communicating between Client-Server code and making use of Linked-Lists, Multi-Threading and Sockets to deliver a fast response to user. Created using the C programming language.</p>
-        <p style="text-align:center;"><a href="https://github.com/ChristopherGawdzik/Cleint-Server-Pokemon" target="_blank">Github Repo!</a></p>
-    </div>
-
-    <div>
-        <br>
-        <br>
-        <br>
-        <h2 align="center">Cryptocurrency Converter <img src="svg/eth.svg" width="120px" height="60px" alt=""></h2>
-        <br>
-        <br>
-        <p style="text-align:center;">Implemented a cryptocurrency converter that would take in a amount of dollars and convert to a cryptocurrency of user's choice. Made using Java, an API and http requests to have live/accurate results.</p>
-        <br>
-        <br>
-        <p style="text-align:center; color: #45a049">Currently working on a website version that will be UI friendly. Will be built with JavaScript, HTML and CSS</p>
-        <br>
-    </div>
-
-
 </div>
 
-<div>
-    <h3></h3>
-</div>
+<br>
+<br>
 
-<div class="first" id="Education">
+<div class="grey" id="Education">
     <h1 align="center"><i><u>Education</u></i> </h1>
     <h3 align="center"> Carleton University <img src="svg/carleton.svg" width="50"></h3>
     <h4 align="center">BCS, Computer Science Honours</h4>
@@ -128,22 +106,11 @@
     <h4 align="center"><iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.078615230977!2d-75.69820888374298!3d45.3875849465722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05d8d37fecc3%3A0xbf5d8d7821b8dcdc!2sCarleton%20University!5e0!3m2!1sen!2sca!4v1634100460983!5m2!1sen!2sca" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe></h4>
 </div>
 
-<div>
-    <h3></h3>
-</div>
-
-
-<div class="first" id="Contact">
-    <h1 align="center"><i><u>Contact</u></i> </h1>
-    <h2 align="center"><a href="https://www.linkedin.com/in/cgawdzik/" target="_blank"> <img style="text-align: left" src="svg/linkedin.svg" width="150" height="100" ></a></h2>
-</div>
-
-<div>
-    <h3></h3>
-</div>
+<br>
+<br>
 
 <div class="jumbotron text-center" style="margin-bottom: 0">
-    <p align="center">Copyright © Christopher Gawdzik - 2022</p>
+    <p align="center">Christopher Gawdzik - 2022</p>
     </p>
 </div>
 
